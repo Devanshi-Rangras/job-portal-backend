@@ -9,6 +9,12 @@ trigger:
       - dev
       - main
 
+pr:
+  branches:
+    include:
+    - main
+    - '*'
+
 pool:
   name: 'MySelfHostedpool'
   demands: []
